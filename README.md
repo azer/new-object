@@ -1,6 +1,6 @@
 ## new-object
 
-Objects with PubSub Interface
+Objects with PubSub Interface. See also: [new-list](https://github.com/azer/new-list)
 
 ## Install
 
@@ -37,6 +37,23 @@ prices.subscribe(function(update){
     ['banana']
 
 })
+```
+
+## Publishing Custom Updates
+
+```js
+people = newObject({ john: { age: 21 city: 'SF' }, smith: { age: 23, city: 'NYC' } })
+
+people.subscribe(function(update){
+
+  if(update.person)
+    debug('%s was updated', update.person)
+
+})
+
+people('john').age = 22;
+people.publish({ person: 'john' })
+
 ```
 
 See tests for more information.
