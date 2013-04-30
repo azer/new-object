@@ -1,6 +1,6 @@
 ## new-object
 
-Objects with PubSub Interface. See also: [new-list](https://github.com/azer/new-list)
+Objects that you can subscribe to changes. See also: [new-list](https://github.com/azer/new-list)
 
 ## Install
 
