@@ -31,10 +31,10 @@ prices.rm('banana')
 prices.subscribe(function(update){
 
     update.set
-    { cherry: 5, apple: 2 }
+    // => { cherry: 5, apple: 2 }
 
     update.rm
-    ['banana']
+    // => ['banana']
 
 })
 ```
