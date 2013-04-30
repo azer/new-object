@@ -1,0 +1,21 @@
+{
+  "name": "new-object",
+  "version": "0.0.0",
+  "description": "Objects with PubSub",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "repository": {
+    "url": "git@github.com:azer/new-object.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "new-pubsub": "0.0.3"
+  }
+}
