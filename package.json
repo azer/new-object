@@ -1,6 +1,6 @@
 {
   "name": "new-object",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Objects with PubSub",
   "main": "index.js",
   "scripts": {
