@@ -1,4 +1,4 @@
-## new-object
+## new-object [![Build Status](https://travis-ci.org/azer/new-object.png)](https://travis-ci.org/azer/new-object)
 
 Objects that you can subscribe to changes. See also: [new-list](https://github.com/azer/new-list)
 
