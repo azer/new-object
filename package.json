@@ -16,6 +16,6 @@
   "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD",
   "dependencies": {
-    "new-pubsub": "0.0.3"
+    "pubsub": "0.0.x"
   }
 }
