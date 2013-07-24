@@ -57,5 +57,3 @@ people.publish({ person: 'john' })
 ```
 
 See tests for more information.
-
-![](https://dl.dropboxusercontent.com/s/4fbzg1r7h91doa4/npmel_19.jpg)
